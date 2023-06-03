@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web GUI</title>
+    <link rel="stylesheet" type="text/css" href="Nstyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="divcurl.html">Home</a></li>
+                <li><a href="divcurl.html">About</a></li>
+                <li><a href="divcurl.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Number System Converter</h1>
+            <div class="form-group">
+                <label for="number">Enter a number:</label>
+                <input type="text" id="number" placeholder="Enter a number">
+            </div>
+            <div class="form-group">
+                <label for="from">Convert from:</label>
+                <select id="from">
+                    <option value="binary">Binary</option>
+                    <option value="decimal">Decimal</option>
+                    <option value="hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="to">Convert to:</label>
+                <select id="to">
+                    <option value="binary">Binary</option>
+                    <option value="decimal">Decimal</option>
+                    <option value="hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+            <button onclick="convert()" class="btn">Convert</button>
+            <p id="result"></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2021 Number System Converter</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+  background-color: #6C9BCF;
+}
+.contact-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #FFD3B0;
+}
+
+.contact-table th {
+  background-color: #05BFDB;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+h1
+{
+  text-align: center;
+}
+.contact-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.contact-table td a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-table td a:hover {
+  text-decoration: underline;
+}
+footer {
+    background-color: #DBE4C6;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 300px;
+}
