@@ -3,7 +3,7 @@
 ## Overview
 
 This is a web application project developed for the Degital logical Design by our group during the 3th semester of B.Tech.
-The application is designed to solve some of the problem based on degital logic design and waves and Electromagnetices. 
+The application is designed to solve some of the problem based on degital logic design and waves and Electromagnetics. 
 The application is built using HTML, CSS, and JavaScript for the front-end and NodeJS for the back-end.
 
 
